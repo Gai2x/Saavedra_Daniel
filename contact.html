@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Daniel Saavedra</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="grid-container">
+
+    <div class="logo">
+      <ul>
+        <li><a href="index.html">MY PORTFOLIO</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact Me</a></li>
+      </ul>
+      <div class="menu">&#9776;</div>
+    </div>
+
+    <div class="text-section">
+      <ul>
+        <li>Contact Me</li>
+        <li>
+          I’d love to connect!  
+          <br><br>
+           Email: <strong>dzdanielsaavedra@gmail.com</strong><br>
+           Phone: <strong>+63 912 345 6789</strong><br>
+           GitHub: <a href="#" style="color:#1e2352;">https://github.com/Gai2x</a><br>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <script>
+    const menu = document.getElementById('menu');
+    const navList = document.querySelector('.navbar ul');
+
+    menu.addEventListener('click', () => {
+        navList.classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>
